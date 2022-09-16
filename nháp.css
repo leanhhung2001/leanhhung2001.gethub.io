@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+body {
+  background-color: rgba(128, 3, 244, 0.452);
+}
+
+
+.phandau .muc ul {
+    list-style-type: none;
+}
+
+.cv-body {
+	width: 100%;
+	max-width: 790px;
+	height: 900px;
+	margin:0 auto;
+}
+
+.cv-main {
+	width: 100%;
+	background-color: white;
+	display: flex;
+}
+
+.cv-col-5 {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 41.6667%;
+	background-color: #FFFFCC;
+}
+
+.cv-col-7 {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 58.3333%;
+}
+
+.cv-profile {
+	width: 286px;
+	margin: 0;
+	padding: 50px 15px 0px 15px;
+	
+}
+
+.profile-name {
+	font-size: 1.4rem;
+	text-align: center;
+	color: #FFA500;
+}
+
+.profile-img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	display: block;
+	margin: 26px auto;
+}
+
+.cv-title {
+	font-size: 1.2rem;
+	color: #FFA500;
+}
+
+.cv-text {
+	font-size: 1rem;
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+.profile-list {
+	list-style: none;
+	padding: 20px 0;
+	line-height: 30px;
+	border-bottom: 2px solid #FFA500;
+}
+
+.profile-item {
+	text-decoration: none;
+}
+
+.profile-icon {
+	font-size: 1rem;
+}
+
+.profile-contact {
+	margin-left: 10px;
+}
+
+
+.hobby__group {
+	padding: 20px 20px;
+}
+
+.hobby-list {
+	list-style: none;
+	margin: 10px 0;
+}
+
+.hobby-item {
+	text-decoration: none;
+	line-height: 24px;
+	font-size: 1rem;
+}
+
+.hobby-content {
+	margin-top: 10px; 
+}
+
+.target__group {
+	padding: 50px 10px 20px 10px;
+}
+
+.education__group,
+.exp__group, .skill__group {
+	padding: 20px 10px 20px 10px;
+	border-top: 2px solid #FFA500;
+}
+
+.education-time {
+	font-size: 0.8rem;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.education-school {
+	font-size: 1.1rem;
+	padding: 5px 0;
+}
+
+.education-content.cv-text {
+	margin: 0;
+}
+
+.skill-list {
+	list-style: none;
+	padding: 20px 0; 
+}
+
+.skill-item {
+	text-decoration: none;
+}
+
+.skill-name {
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.skill-bar {
+	position: relative;
+	height: 20px;
+	width: 90%;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin: 5px 0 10px 0;
+	border-radius: 2px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.skill-value {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: red;
+    animation:growth ease-in 3s;
+    border-radius: 8px;
+
+}
+
+@keyframes growth {
+    from {
+        opacity: 0;
+        width: 0;
+    }
+    to {
+        opacity: 1;
+        width: var(--percent);
+    }
+}
+
+.phantram {
+    padding-left: 104%;
+}
+
+.skill-value.skill-js {
+	right: 25%;
+}
+
+.skill-value.skill-html {
+	right: 20%;
+}
+
+.skill-value.skill-css {
+	right: 30%;
+}
+
+.skill-value.skill-nodejs {
+	right: 90%;
+}
+
+.skill-value.skill-team-work {
+	right: 60%;
+}
+
+.skill-value.skill-english {
+	right: 55%;
+}
+
+.skill-value.skill-communicate {
+	right: 80%;
+}
